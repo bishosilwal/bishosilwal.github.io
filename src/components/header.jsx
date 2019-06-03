@@ -40,13 +40,13 @@ export default class Header extends Component{
                   <a className="nav-link" href="#">HOME <span className="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">SERVICE</a>
+                  <a className="nav-link" href="#service">SERVICE</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">ABOUT</a>
+                  <a className="nav-link" href="#about">ABOUT</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">CONTACT</a>
+                  <a className="nav-link" href="#contact">CONTACT</a>
                 </li>
               </ul>
             </div>

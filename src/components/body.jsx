@@ -29,7 +29,7 @@ export default class Body extends Component{
           <div className="col-6 text-right">
           </div>
         </div>
-        <div className="row about-myself-row pt-5 mt-5">
+        <div className="row about-myself-row pt-5 mt-5" id="service">
           <div className="col-12">
             <h2 className="primary_color">WHAT SERVICE I CAN OFFER FOR YOU</h2>
           </div>
@@ -77,7 +77,7 @@ export default class Body extends Component{
             </div>
           </div>
         </div>
-        <div className="row about-myself-row pt-5 mt-5">
+        <div className="row about-myself-row pt-5 mt-5" id="about">
           <div className="col-6 image-div d-flex justify-content-center">
             <div className="align-self-center">
               <img src={bishoImage}/>
@@ -174,7 +174,7 @@ export default class Body extends Component{
 
           </div>
         </div>
-        <div className="row pt-5 mt-5 pb-5">
+        <div className="row pt-5 mt-5 pb-5" id="contact">
           <div className="col-12">
             <h2 className="primary_color">CONTACT ME </h2>
             <p className="text-muted">If you need creative, energetic, problem solver and highly motivated developer for your project or company, please do contact me. I am available at part-time as well as fulltime. </p>
