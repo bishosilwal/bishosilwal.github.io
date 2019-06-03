@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import image2 from '../images/image2.png'
+import web from '../images/web.png'
+import ux from '../images/ux.png'
+import mobile from '../images/mobile.png'
 
 export default class Body extends Component{
 
@@ -38,18 +41,137 @@ export default class Body extends Component{
             </div>
           </div>
         </div>
-        <div className="row about-myself-row pt-5">
+        <div className="row about-myself-row pt-5 mt-3">
           <div className="col-12">
-            <h2>WHAT SERVICE I OFFER FOR YOU</h2>
+            <h2 className="primary_color">WHAT SERVICE I CAN OFFER FOR YOU</h2>
           </div>
-          <div className="col-6">
-            <p>
-              inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed. inappropriate behavior is often laughed off as “boys will be boys,” women face higher.
-              That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.
-            </p>
-            <button type="button" class="btn btn-primary mr-2">More Info</button>
-            <button type="button" class="btn btn-danger">Resume</button>
+          <div className="col-12 pt-4 row justify-content-between">
+            <div className="col-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center primary_color">
+                    <img src={web} height="100"/><br/>
+                    Web Development
+                  </h5>
+                  <p class="card-text font-weight-light text-black-50">
+                    Innovative technology solutions for real-world business challenges.
+                    <br/> <br/> <br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center primary_color">
+                    <img src={mobile} height="100"/><br/>
+                    Mobile App Development
+                  </h5>
+                  <p class="card-text font-weight-light text-black-50">
+                   We specialize in creating mobile apps for Android, and iOS (iPhone and iPad).
+                   <br/> <br/> <br/>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center primary_color">
+                    <img src={ux} height="100"/><br/>
+                    UX/UI Design
+                  </h5>
+                  <p class="card-text font-weight-light text-black-50">
+                    We provide best User experience (UX) design by creating products that provide meaningful and relevant experiences to users.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+
+        <div className="row pt-5 tech-stack-row">
+          <div className="col-12">
+            <h2 className="primary_color">TECHNOLOGY STACK I EXPERT AT </h2>
+          </div>
+          <div className="col-12 pt-4 row justify-content-between">
+            <div className="col-3">
+              <div class="card">
+                <div class="card-body p-2">
+                  <h5 class="card-title text-center primary_color">
+                    Ruby
+                    <p className="font-weight-light text-black-light">Rails </p>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div class="card">
+                <div class="card-body p-2">
+                  <h5 class="card-title text-center primary_color">
+                    Php
+                    <p className="font-weight-light text-black-light">
+                      Laravel
+                    </p>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div class="card">
+                <div class="card-body p-2">
+                  <h5 class="card-title text-center primary_color">
+                    Javascript
+                    <p className="font-weight-light text-black-light">Jquery, Reactjs</p>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div class="card">
+                <div class="card-body p-2">
+                  <h5 class="card-title text-center primary_color">
+                    Css
+                    <p className="font-weight-light text-black-light">Bootstrap, MdBootstrap, Semantic UI</p>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-3 mt-3">
+              <div class="card">
+                <div class="card-body p-2">
+                  <h5 class="card-title text-center primary_color">
+                    Git
+                    <br/> <br/>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-3 mt-3">
+              <div class="card">
+                <div class="card-body p-2">
+                  <h5 class="card-title text-center primary_color">
+                    Linux
+                    <p className="font-weight-light text-black-light">Ubuntu</p>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-3 mt-3">
+              <div class="card">
+                <div class="card-body p-2">
+                  <h5 class="card-title text-center primary_color">
+                    Database
+                    <p className="font-weight-light text-black-light">Mysql, Postgresql</p>
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div className="row pt-5">
+
         </div>
       </div>
       )

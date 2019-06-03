@@ -34,3 +34,29 @@
 .image-div img{
   height: 400px;
 }
+
+h2{
+  font-weight: 600;
+}
+
+.card{
+  background-color: #f8faff;
+}
+
+.card:hover{
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.tech-stack-row .card:hover{
+  background-color: #5632f2;
+}
+.tech-stack-row .card:hover h5, .tech-stack-row .card:hover p{
+  color: white;
+}
+
+.tech-stack-row .card p{
+  font-size: 1rem;
+}
+.text-black-light{
+  color: rgba(0,0,0,.5);
+}
