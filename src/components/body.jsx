@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import image2 from '../images/image2.png'
 import web from '../images/web.png'
 import ux from '../images/ux.png'
 import mobile from '../images/mobile.png'
