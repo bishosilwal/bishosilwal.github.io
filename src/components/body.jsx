@@ -3,6 +3,10 @@ import image2 from '../images/image2.png'
 import web from '../images/web.png'
 import ux from '../images/ux.png'
 import mobile from '../images/mobile.png'
+import facebookIcon from '../images/facebook.png'
+import githubIcon from '../images/github.png'
+import linkedinIcon from '../images/linkedin.png'
+import bishoImage from '../images/bisho.png'
 
 export default class Body extends Component{
 
@@ -16,32 +20,16 @@ export default class Body extends Component{
               <h5 className="text-black-50 font-weight-light">Hey There</h5>
               <h2 className='primary_color'>I AM BISHO SILWAL </h2>
               <h4 className="text-black-50 font-weight-light">CREATIVE FULL STACK WEB DEVELOPER</h4>
-
-              <button className="btn btn_primary">SEE MY WORK </button>
+              <a href="https://www.linkedin.com/in/bisho-silwal-46717a8a/" target="_blank"><img src={linkedinIcon} height="30"/></a>
+              <a href="https://github.com/bishosilwal" target="_blank"><img src={githubIcon} height="30"/></a>
+              <a href="https://www.facebook.com/bisho.silwal" target="_blank"><img src={facebookIcon} height="30"/></a><br/>
+              <button className="btn btn_primary mt-1">SEE MY WORK </button>
             </div>
           </div>
           <div className="col-6 text-right">
-            <img src="https://colorlib.com/preview/theme/breed2/img/banner/home-right.png"/>
           </div>
         </div>
-        <div className="row about-myself-row pt-5">
-          <div className="col-6 image-div d-flex justify-content-center">
-            <div className="align-self-center">
-              <img src="https://colorlib.com/preview/theme/breed2/img/banner/home-right.png"/>
-            </div>
-          </div>
-          <div className="col-6 d-flex">
-            <div className="align-self-center">
-              <h5 className="text-black-50">ABOUT ME</h5>
-              <h2 className='primary_color'>CREATIVE FULL STACK WEB DEVELOPER</h2>
-              <p className="font-weight-light text-black-50">
-                My name is Bisho Silwal and I am a freelance web developer who specializes in creating dynamic and
-                beautiful web application using latest tech stack. I have been in the field for nearly 2 years, and have been loving every minute of it. Check out some of the links below to see what I’ve been up to lately
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row about-myself-row pt-5 mt-3">
+        <div className="row about-myself-row pt-5 mt-5">
           <div className="col-12">
             <h2 className="primary_color">WHAT SERVICE I CAN OFFER FOR YOU</h2>
           </div>
@@ -89,8 +77,24 @@ export default class Body extends Component{
             </div>
           </div>
         </div>
-
-        <div className="row pt-5 tech-stack-row">
+        <div className="row about-myself-row pt-5 mt-5">
+          <div className="col-6 image-div d-flex justify-content-center">
+            <div className="align-self-center">
+              <img src={bishoImage}/>
+            </div>
+          </div>
+          <div className="col-6 d-flex">
+            <div className="align-self-center">
+              <h5 className="text-black-50">ABOUT ME</h5>
+              <h2 className='primary_color'>CREATIVE FULL STACK WEB DEVELOPER</h2>
+              <p className="font-weight-light text-black-50">
+                My name is Bisho Silwal and I am a freelance web developer who specializes in creating dynamic and
+                beautiful web application using latest tech stack. I have been in the field for nearly 2 years, and have been loving every minute of it. Check out some of the links below to see what I’ve been up to lately
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row pt-5 tech-stack-row mt-5">
           <div className="col-12">
             <h2 className="primary_color">TECHNOLOGY STACK I EXPERT AT </h2>
           </div>
@@ -170,8 +174,21 @@ export default class Body extends Component{
 
           </div>
         </div>
-        <div className="row pt-5">
-
+        <div className="row pt-5 mt-5 pb-5">
+          <div className="col-12">
+            <h2 className="primary_color">CONTACT ME </h2>
+            <p className="text-muted">If you need creative, energetic, problem solver and highly motivated developer for your project or company, please do contact me. I am available at part-time as well as fulltime. </p>
+          </div>
+          <div className="col-12 d-flex justify-content-between">
+            <h5 className="text-muted">Mobile Number: +9779847555071</h5>
+            <h5 className="text-muted">Email: aayussilwal@gmail.com </h5>
+            <h5 className="text-muted">Address: Kathmandu, Nepal </h5>
+          </div>
+          <div className="col-12 ">
+            <a href="https://www.linkedin.com/in/bisho-silwal-46717a8a/" target="_blank"><img src={linkedinIcon} height="30"/></a>
+            <a href="https://github.com/bishosilwal" target="_blank"><img src={githubIcon} height="30"/></a>
+            <a href="https://www.facebook.com/bisho.silwal" target="_blank"><img src={facebookIcon} height="30"/></a><br/>
+          </div>
         </div>
       </div>
       )

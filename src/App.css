@@ -57,6 +57,12 @@ h2{
 .tech-stack-row .card p{
   font-size: 1rem;
 }
+
 .text-black-light{
   color: rgba(0,0,0,.5);
+}
+
+.footer{
+  background-color: #240984;
+  color: white;
 }
