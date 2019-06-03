@@ -176,12 +176,12 @@ export default class Body extends Component{
         <div className="row pt-5 mt-5 pb-5" id="contact">
           <div className="col-12">
             <h2 className="primary_color">CONTACT ME </h2>
-            <p className="text-muted">If you need creative, energetic, problem solver and highly motivated developer for your project or company, please do contact me. I am available at part-time as well as fulltime. </p>
+            <p className="font-weight-light text-black-50">If you need creative, energetic, problem solver and highly motivated developer for your project or company, please do contact me. I am available at part-time as well as fulltime. </p>
           </div>
           <div className="col-12 d-flex justify-content-between">
-            <h5 className="text-muted">Mobile Number: +9779847555071</h5>
-            <h5 className="text-muted">Email: aayussilwal@gmail.com </h5>
-            <h5 className="text-muted">Address: Kathmandu, Nepal </h5>
+            <h5 className="font-weight-light text-muted">Mobile Number: +9779847555071</h5>
+            <h5 className="font-weight-light text-muted">Email: aayussilwal@gmail.com </h5>
+            <h5 className="font-weight-light text-muted">Address: Kathmandu, Nepal </h5>
           </div>
           <div className="col-12 ">
             <a href="https://www.linkedin.com/in/bisho-silwal-46717a8a/" target="_blank"><img src={linkedinIcon} height="30"/></a>
